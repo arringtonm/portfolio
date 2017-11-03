@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.gallery-item {
+  width: 200px;
+  height: 300px;
+  filter: brightness(50%) greyscale(20%);
+  transition: filter 500ms ease-in-out; }
+  .gallery-item:hover {
+    filter: brightness(100%) greyscale(0%); }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,oEAA4D;ACApE,CAAE;EACA,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;;ADGX,CAAE;EAHA,WAAW,EAAE,uBAAuB;EACpC,SAAS,EAGK,IAAI;;AEPpB,QAAS;ECCP,OAAO,EAAE,IAAI;EACb,eAAe,EDDD,MAAM;ECEpB,WAAW,EDFU,MAAM;;AAE7B,aAAc;EACZ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EAEb,MAAM,EAAE,8BAA8B;EACtC,UAAU,EAAE,wBAAwB;EACpC,mBAAQ;IAGN,MAAM,EAAE,8BAA8B",
+"sources": ["../sass/base/_typography.scss","../sass/base/_reset.scss","../sass/layout/_gallery.scss","../sass/utils/_mixins.scss"],
+"names": [],
+"file": "styles.css"
+}
