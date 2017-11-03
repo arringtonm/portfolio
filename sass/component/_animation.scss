@@ -1,6 +1,21 @@
-@keyframes slide-in-top {
+@keyframes slide-in-left {
   0% {
-    left: 1500px;
+    left: -1500px;
+  }
+  50% {
+    left: 100px;
   }
   100% {
     left: 0px; } }
+
+@keyframes border-bar {
+  0% {
+    border-image: linear-gradient(90deg,aqua) 30;
+  }
+  85% {
+    border-image: linear-gradient(90deg,aqua,#e6ffff,aqua) 30;
+  }
+  100% {
+    border-image: linear-gradient(90deg,aqua) 30;
+  }
+}

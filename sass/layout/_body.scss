@@ -12,4 +12,6 @@
 .greeting {
   @include font(30px);
   padding-right: 25px;
-  color: #888; }
+  color: #888;
+  position: relative;
+  animation: slide-in-left 300ms ease-in 0s 1; }

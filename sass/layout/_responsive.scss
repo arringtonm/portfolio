@@ -1,0 +1,30 @@
+@media only screen and (max-width: 999px) {
+  .header {
+    height: 150px;
+    @include flex(space-between,center); }
+  .header ul {
+    padding-right: 20px;
+  }
+  .header h1.header-fullsize {
+    display: none; }
+  .header h1.header-smallsize {
+    display: block;
+    @include font(44px);
+    line-height: 30px;
+    padding-left: 20px; }
+  .container {
+    width: 100%; }
+  .main {
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .greeting {
+    @include font(24px);
+    width: 100vw;
+    padding: 0px 20px; }
+  .gallery {
+    flex-wrap: wrap; }
+  .gallery-item {
+    width: 40%;
+    height: auto;
+  }
+}
