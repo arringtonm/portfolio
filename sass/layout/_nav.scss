@@ -1,7 +1,6 @@
 .header .container {
   justify-content: space-between;
-  align-items: center;
-}
+  align-items: center; }
 
 .navigation ul {
   @include font(20px);

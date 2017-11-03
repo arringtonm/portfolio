@@ -1,5 +1,5 @@
 .main {
-  background-color: #F4F4F4;
+  background-image: linear-gradient(to bottom,#F4F4F4,#F4F4F4,#DDD);
   height: calc(100vh - 201px);
   margin-top: 0;
   @include flex; }
