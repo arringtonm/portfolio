@@ -8,6 +8,29 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px; }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  top: 0px;
+  height: 201px;
+  width: 100%;
+  border-bottom: 10px solid aqua; }
+
+.header h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100px;
+  line-height: 80px;
+  padding: 10px; }
+
+.navigation ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 20px;
+  list-style-type: none; }
+  .navigation ul li {
+    border-left: 10px solid aqua; }
+
 .gallery {
   display: flex;
   justify-content: center;
@@ -16,9 +39,16 @@ p {
 .gallery-item {
   width: 200px;
   height: 300px;
-  filter: brightness(50%) greyscale(20%);
-  transition: filter 500ms ease-in-out; }
+  border-bottom: 10px solid transparent;
+  filter: brightness(80%);
+  transition: filter 500ms ease-in-out, border-bottom 200ms ease-in-out; }
   .gallery-item:hover {
-    filter: brightness(100%) greyscale(0%); }
+    border-bottom: 10px solid aqua;
+    filter: brightness(100%); }
+
+.main {
+  background-color: #F4F4F4;
+  height: calc(100vh - 201px);
+  margin-top: 0; }
 
 /*# sourceMappingURL=styles.css.map */
