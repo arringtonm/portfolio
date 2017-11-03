@@ -1,14 +1,15 @@
 .header {
-  @include flex(space-between);
+  @include flex(center);
   // position: fixed;
   top: 0px;
   height: 201px;
   width: 100%;
+  color: #888;
   // background-image: linear-gradient(to right,white 70%,aqua);
-  border-bottom: 10px solid aqua;
- }
+  border-bottom: 10px solid aqua; }
 
 .header h1 {
   @include font(100px);
   line-height: 80px;
-  padding: 10px; }
+  padding-top: 15px;
+  position: relative; }

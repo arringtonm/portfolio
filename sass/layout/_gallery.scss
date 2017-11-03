@@ -1,14 +1,18 @@
 .gallery {
-  // margin-top: 250px;
-  @include flex(center,center); }
+  // margin-top: 50px;
+  @include flex(center,center);
+  position: relative;
+  animation: slide-in-right 500ms ease-in-out 0s 1;
+ }
 
 .gallery-item {
   width: 200px;
   height: 300px;
+  // border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   filter: brightness(80%);
-  transition: filter 500ms ease-in-out, border-bottom 200ms ease-in-out;
+  transition: filter 500ms ease-in-out;
   &:hover {
     border-bottom: 10px solid aqua;
-    // box-shadow: 1px 1px 0px 5px aqua;
+    // border-top: 10px solid #888;
     filter: brightness(100%) } }

@@ -8,40 +8,59 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px; }
 
+.container {
+  width: 1000px;
+  display: flex; }
+
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   top: 0px;
   height: 201px;
   width: 100%;
+  color: #888;
   border-bottom: 10px solid aqua; }
 
 .header h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 100px;
   line-height: 80px;
-  padding: 10px; }
+  padding-top: 15px;
+  position: relative; }
+
+.header .container {
+  justify-content: space-between;
+  align-items: center; }
 
 .navigation ul {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  padding: 20px;
+  font-size: 20px;
   list-style-type: none; }
   .navigation ul li {
-    border-left: 10px solid aqua; }
+    padding-right: 5px;
+    padding-left: 150px;
+    border-right: 10px solid aqua; }
+    .navigation ul li:hover {
+      border-right: 10px solid #888;
+      background-color: aqua;
+      background-image: linear-gradient(to right, white, aqua);
+      color: white;
+      cursor: pointer; }
 
 .gallery {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: relative;
+  animation: slide-in-right 500ms ease-in-out 0s 1; }
 
 .gallery-item {
   width: 200px;
   height: 300px;
   border-bottom: 10px solid transparent;
   filter: brightness(80%);
-  transition: filter 500ms ease-in-out, border-bottom 200ms ease-in-out; }
+  transition: filter 500ms ease-in-out; }
   .gallery-item:hover {
     border-bottom: 10px solid aqua;
     filter: brightness(100%); }
@@ -49,6 +68,28 @@ p {
 .main {
   background-color: #F4F4F4;
   height: calc(100vh - 201px);
-  margin-top: 0; }
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.main .container {
+  width: 1000px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.greeting {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  padding-right: 25px;
+  color: #888; }
+
+@keyframes slide-in-top {
+  0% {
+    left: 1500px; }
+  100% {
+    left: 0px; } }
 
 /*# sourceMappingURL=styles.css.map */

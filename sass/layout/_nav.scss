@@ -1,9 +1,18 @@
+.header .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
 .navigation ul {
-  @include font(14px);
-  padding: 20px;
+  @include font(20px);
   list-style-type: none;
   & li {
-    border-left: 10px solid aqua;
-  }
-
- }
+    padding-right: 5px;
+    padding-left: 150px;
+    border-right: 10px solid aqua;
+  &:hover {
+    border-right: 10px solid #888;
+    background-color: aqua;
+    background-image: linear-gradient(to right,white,aqua);
+    color: white;
+    cursor: pointer; } } }
