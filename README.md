@@ -8,7 +8,7 @@ The instructor will provide feedback on the project as if he were a potential em
 
 ## Specs
 
-The site is responsive; resizing below 1000px total width should adjust the layout to a more "mobile friendly" orientation. Gallery items and links should demonstrate hover decorations when selected. The welcome paragraph text should slide into the screen from a non viewable area and gently "bounce" off of the gallery items upon loading of the page.
+The site is responsive; resizing below 1000px total width should adjust the layout to a more "mobile friendly" orientation. Gallery items and links should demonstrate hover decorations when selected. The welcome paragraph text should slide into the screen from a non viewable area and gently "bounce" into place upon loading of the page.
 
 ## Legal etc
 

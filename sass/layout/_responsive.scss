@@ -14,27 +14,33 @@
   .container {
     width: 100%;
     display: flex;
+    text-wrap: wrap;
+    max-width: 100%;
     flex-wrap: wrap; }
   .main {
+    @include flex(flex-start,center);
+    width: 100%;
     flex-wrap: wrap;
-    flex-direction: column;
-    background-image: linear-gradient(to bottom,#F4F4F4,#F4F4F4,#DDD);
-    height: 100%; }
+    height: 100vh; }
   .greeting {
-    margin-top: -50px;
-    text-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     @include font(24px);
-    max-width: calc(100%);
-    padding: 0px 20px; }
+    animation: none; }
   .gallery {
-    @include flex(space-around);
-    flex-wrap: wrap; }
+    @include flex(space-around,center);
+    flex-wrap: wrap;
+    margin: 0px 20px;
+    width: 100%;
+    max-width: 100%; }
   .gallery-item {
     margin-top: 50px;
-    width: 40%;
-    height: auto; } }
-@media only screen and (max-width: 620px) {
+    width: 250px;
+    height: 250px; } }
+
+@media only screen and (max-width: 650px) {
   .header h1.header-smallsize {
     @include font(36px); }
   .navigation ul li {
-    padding-left: 25px; } }
+    padding-left: 15px; } }

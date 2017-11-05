@@ -1,17 +1,17 @@
 .main {
-  background-image: linear-gradient(to bottom,#F4F4F4,#F4F4F4,#DDD);
+  background-color: #F4F4F4;
   height: calc(100vh - 201px);
-  margin-top: 0;
-  @include flex; }
+  @include flex(flex-start);
+  flex-direction: column;
+  align-items: center; }
 
 .main .container {
   width: 1000px;
-  margin-top: 100px;
-  @include flex(center,flex-start); }
+  @include flex(flex-start,flex-start); }
 
 .greeting {
   @include font(30px);
-  padding-right: 25px;
+  margin-top: 50px;
   color: #888;
   position: relative;
   animation: slide-in-left 300ms ease-in 0s 1; }
