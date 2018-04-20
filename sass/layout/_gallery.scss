@@ -6,8 +6,11 @@
   margin-top: 50px; }
 
 .gallery-item {
+  // width: 240px;
+  // height: 240px;
   width: 240px;
-  height: 240px;
+  
+  height: 130px;
   border-bottom: 10px solid transparent;
   filter: brightness(80%) grayscale(70%);
   transition: filter 500ms ease-in-out;

@@ -67,7 +67,7 @@ a {
 
 .gallery-item {
   width: 240px;
-  height: 240px;
+  height: 130px;
   border-bottom: 10px solid transparent;
   filter: brightness(80%) grayscale(70%);
   transition: filter 500ms ease-in-out; }
@@ -99,8 +99,7 @@ a {
   font-size: 30px;
   margin-top: 50px;
   color: #888;
-  position: relative;
-  animation: slide-in-left 300ms ease-in 0s 1; }
+  position: relative; }
 
 @keyframes slide-in-left {
   0% {
