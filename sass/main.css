@@ -159,8 +159,8 @@ p {
 
   .gallery-item {
     margin-top: 50px;
-    width: 250px;
-    height: 250px; } }
+    width: 240px;
+    height: 130px; } }
 @media only screen and (max-width: 650px) {
   .header h1.header-smallsize {
     font-family: 'Open Sans', sans-serif;
