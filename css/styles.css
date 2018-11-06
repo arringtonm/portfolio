@@ -6,7 +6,9 @@
 
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+  font-variant-ligatures: normal;
+  font-kerning: auto; }
 
 a {
   color: inherit;
@@ -30,6 +32,9 @@ a {
 .header h1.header-fullsize {
   font-family: 'Open Sans', sans-serif;
   font-size: 100px;
+  font-variant-ligatures: normal;
+  font-kerning: auto;
+  font-weight: 600;
   line-height: 80px;
   padding-top: 15px;
   position: relative; }
@@ -44,6 +49,8 @@ a {
 .navigation ul {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  font-variant-ligatures: normal;
+  font-kerning: auto;
   list-style-type: none; }
   .navigation ul li {
     padding-right: 5px;
@@ -97,6 +104,8 @@ a {
 .greeting {
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
+  font-variant-ligatures: normal;
+  font-kerning: auto;
   margin-top: 50px;
   color: #888;
   position: relative; }
@@ -125,6 +134,8 @@ a {
     display: block;
     font-family: 'Open Sans', sans-serif;
     font-size: 44px;
+    font-variant-ligatures: normal;
+    font-kerning: auto;
     line-height: 30px;
     padding-left: 20px; }
 
@@ -149,6 +160,8 @@ a {
     margin-right: 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
+    font-variant-ligatures: normal;
+    font-kerning: auto;
     animation: none; }
 
   .gallery {
@@ -167,7 +180,9 @@ a {
 @media only screen and (max-width: 650px) {
   .header h1.header-smallsize {
     font-family: 'Open Sans', sans-serif;
-    font-size: 36px; }
+    font-size: 36px;
+    font-variant-ligatures: normal;
+    font-kerning: auto; }
 
   .navigation ul li {
     padding-left: 15px; } }

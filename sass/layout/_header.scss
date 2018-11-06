@@ -8,6 +8,10 @@
 
 .header h1.header-fullsize {
   @include font(100px);
+  // font-feature-settings: "dlig" 1;
+  // font-feature-settings: "zero" 1;
+
+  font-weight: 600;
   line-height: 80px;
   padding-top: 15px;
   position: relative; }
