@@ -5,11 +5,8 @@
   .header ul {
     padding-right: 20px; }
   .header h1.header-fullsize {
-    display: none; }
-  .header h1.header-smallsize {
-    display: block;
-    @include font(44px);
-    line-height: 30px;
+    font-size: 72px;
+    line-height: 50px;
     padding-left: 20px; }
   .container {
     width: 100%;
@@ -39,8 +36,16 @@
     width: 240px;
     height: 130px; } }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 720px) {
+  .main {
+    flex-wrap: nowrap;
+  }
   .header h1.header-smallsize {
     @include font(36px); }
   .navigation ul li {
-    padding-left: 15px; } }
+    padding-left: 15px; }
+  .gallery {
+    flex-wrap: wrap;
+    margin: 0px 20px;
+    width: 100%;
+    max-width: 100%; }  }
