@@ -60,7 +60,6 @@ a {
       border-right: 10px solid #888;
       background-color: aqua;
       background-image: linear-gradient(to right, white, aqua);
-      color: white;
       cursor: pointer; }
 
 .gallery {
