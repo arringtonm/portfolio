@@ -173,9 +173,9 @@ a {
   .main {
     flex-wrap: nowrap; }
 
-  .header h1.header-smallsize {
+  .header h1.header-fullsize {
     font-family: 'Open Sans', sans-serif;
-    font-size: 36px;
+    font-size: 60px;
     font-variant-ligatures: normal;
     font-kerning: auto; }
 

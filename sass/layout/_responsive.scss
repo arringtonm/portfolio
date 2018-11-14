@@ -38,10 +38,9 @@
 
 @media only screen and (max-width: 720px) {
   .main {
-    flex-wrap: nowrap;
-  }
-  .header h1.header-smallsize {
-    @include font(36px); }
+    flex-wrap: nowrap; }
+  .header h1.header-fullsize {
+    @include font(60px); }
   .navigation ul li {
     padding-left: 15px; }
   .gallery {
