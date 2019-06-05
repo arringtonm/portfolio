@@ -4,6 +4,9 @@
   padding: 0;
   margin: 0; }
 
+body {
+  background-color: #888888; }
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -21,12 +24,13 @@ a {
 
 .header {
   display: flex;
+  background-color: #666;
   justify-content: center;
   align-items: flex-start;
   top: 0px;
   height: 201px;
   width: 100%;
-  color: #888;
+  color: #F4F4F4;
   border-bottom: 10px solid aqua; }
 
 .header h1.header-fullsize {
@@ -59,7 +63,7 @@ a {
     .navigation ul li:hover {
       border-right: 10px solid #888;
       background-color: aqua;
-      background-image: linear-gradient(to right, white, aqua);
+      background-image: linear-gradient(to right, #666, aqua);
       cursor: pointer; }
 
 .gallery {
@@ -86,7 +90,8 @@ a {
   height: 100%; }
 
 .main {
-  background-color: #F4F4F4;
+  background-color: #888888;
+  color: #F4F4F4;
   height: calc(100vh - 201px);
   display: flex;
   justify-content: flex-start;
@@ -106,7 +111,7 @@ a {
   font-variant-ligatures: normal;
   font-kerning: auto;
   margin-top: 50px;
-  color: #888;
+  color: #F4F4F4;
   position: relative; }
 
 @keyframes slide-in-left {
