@@ -5,7 +5,7 @@
   margin: 0; }
 
 body {
-  background-color: #888888; }
+  background-color: #444444; }
 
 p {
   font-family: 'Open Sans', sans-serif;
@@ -24,7 +24,7 @@ a {
 
 .header {
   display: flex;
-  background-color: #666;
+  background-color: #333;
   justify-content: center;
   align-items: flex-start;
   top: 0px;
@@ -90,7 +90,7 @@ a {
   height: 100%; }
 
 .main {
-  background-color: #888888;
+  background-color: #404444;
   color: #F4F4F4;
   height: calc(100vh - 201px);
   display: flex;
