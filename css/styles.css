@@ -61,9 +61,9 @@ a {
     padding-left: 150px;
     border-right: 10px solid aqua; }
     .navigation ul li:hover {
-      border-right: 10px solid #888;
+      border-right: 10px solid #333;
       background-color: aqua;
-      background-image: linear-gradient(to right, #666, aqua);
+      background-image: linear-gradient(to right, #333, aqua);
       cursor: pointer; }
 
 .gallery {
