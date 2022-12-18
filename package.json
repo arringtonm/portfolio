@@ -1,0 +1,20 @@
+{
+  "name": "arringtondottech",
+  "version": "1.0.0",
+  "description": "arrington.tech portfolio site",
+  "main": "index.html",
+  "scripts": {
+    "test": "test",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arringtonm/portfolio.git"
+  },
+  "author": "Michael Arrington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arringtonm/portfolio/issues"
+  },
+  "homepage": "https://github.com/arringtonm/portfolio#readme"
+}
